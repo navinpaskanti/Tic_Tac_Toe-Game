@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playwrite FR Moderne", cursive;
+}
+
+body {
+  background-color: #7ee8fa;
+  text-align: center;
+}
+
+span {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fb607f;
+}
+span:hover {
+  text-shadow: 0 0 5px #e8f403, 0 0 5px #e8f403, 0 0 5px #e8f403,
+    0 0 5px #e8f403;
+  color: #fff;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 5rem 5rem;
+  border: none;
+  box-shadow: 0 10px 10px -5px #925e78;
+  font-size: 8vmin;
+  background-color: #bd93bd;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: #9a7d9a;
+}
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  color: #7ee8fa;
+  border-radius: 1rem;
+  border: none;
+  background-color: #bd93bd;
+  text-shadow: 3px 3px 3px #043b54;
+}
+#reset-btn:hover {
+  background-color: #3300ff;
+  box-shadow: rgb(255, 76, 76) 0px -23px 25px 0px inset,
+    rgba(255, 46, 46, 0.15) 0px -36px 30px 0px inset,
+    rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset,
+    rgba(255, 255, 255, 0.06) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 4px 2px,
+    rgba(255, 255, 255, 0.09) 0px 8px 4px,
+    rgba(255, 255, 255, 0.09) 0px 16px 8px,
+    rgba(255, 255, 255, 0.09) 0px 32px 16px;
+  color: white;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  color: #7ee8fa;
+  border-radius: 1rem;
+  border: none;
+  background-color: #bd93bd;
+}
+
+#new-btn:hover {
+  background-color: #3300ff;
+  box-shadow: rgb(255, 76, 76) 0px -23px 25px 0px inset,
+    rgba(255, 46, 46, 0.15) 0px -36px 30px 0px inset,
+    rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset,
+    rgba(255, 255, 255, 0.06) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 4px 2px,
+    rgba(255, 255, 255, 0.09) 0px 8px 4px,
+    rgba(255, 255, 255, 0.09) 0px 16px 8px,
+    rgba(255, 255, 255, 0.09) 0px 32px 16px;
+  color: white;
+}
+#msg {
+  color: #fff;
+  font-size: 5vmin;
+  text-shadow: 0 0 5px #6b03f4, 0 0 5px #6b03f4, 0 0 5px #6b03f4,
+    0 0 5px #6b03f4;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+.x-color {
+  color: #fff;
+  text-shadow: 0 0 5px #ff0000, 0 0 5px #ff0000, 0 0 5px #ff0000,
+    0 0 5px #ff0000;
+}
+
+.o-color {
+  color: #fff;
+  text-shadow: 0 0 5px #0000ff, 0 0 5px #0000ff, 0 0 5px #0000ff,
+    0 0 5px #0000ff;
+}
